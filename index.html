@@ -16,8 +16,8 @@
     <fieldset>
       <legend>オプション</legend>
       <label>
-        長さ(8)
-        <input type="range">
+        長さ(<span id="password-length">8</span>)
+        <input type="range" id="slider" min="8" max="24" value="8">
       </label>
       <label>
         数字
@@ -29,5 +29,7 @@
       </label>
     </fieldset>
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>
